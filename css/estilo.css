@@ -20,7 +20,7 @@ body {
 .hr{
     height: 1px;
     background-color: black;
-    width: 30%;
+    width: 100%;
 }
 
 .card-image{
@@ -37,7 +37,7 @@ body {
 
 .botoes-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #btn-sobre{
@@ -136,4 +136,9 @@ body {
 
 #texto-2{
     display: none;
+}
+
+.link-git{
+    text-decoration: none;
+    color: black;
 }
