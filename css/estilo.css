@@ -85,7 +85,7 @@ body {
 
 #footer-elementos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #footer-elementos .email{
@@ -95,7 +95,7 @@ body {
 @media(min-width: 900px){
 
     .container-linear{
-        background: linear-gradient(to left, #fff 60%, #19DEF0 40%);
+        background: linear-gradient(to left, #fff 60%, #98FB98 40%);
     }
 
     .card-col{
